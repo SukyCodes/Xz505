@@ -13,4 +13,7 @@ class Person extends Test {
   public void setSchool(String school) {
     this.school = school;
   }
+
+  public String toString() {
+  return "Person{Name = " + name + ", Age = " + age + ", School = " + school"};
   
